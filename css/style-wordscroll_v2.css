@@ -1,0 +1,149 @@
+
+
+
+/* Global
+-------------------------------------------------- */
+
+
+
+
+/* Fonts
+-------------------------------------------------- */
+
+@font-face {
+font-family: "Tiny Grotesk Narrow";
+src: 	url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-NarrowRegular.woff") format("woff"),
+		url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-NarrowRegular.otf") format("opentype");
+}
+
+@font-face {
+font-family: "Tiny Grotesk";
+src: 	url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-Regular.woff") format("woff"),
+}
+  
+ 
+
+
+/* Marquee text
+-------------------------------------------------- */
+
+
+body {
+
+}
+
+nav {
+  background-color: none;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  justify-content: center;
+  font-size: 4vh;
+  line-height: 0;
+  padding: 1em;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  animation: fadeInOut 106s linear infinite;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.scrolling-box {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  height: 100vh;
+  width: 100%;
+  background-color: #eaeaea;
+  text-align: center;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;}
+}
+
+
+/* Sections – Global
+-------------------------------------------------- */
+
+section {
+  display: flex;
+  flex: 0 0 auto;
+  width: 100vw;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+
+/* Sections – Individual
+-------------------------------------------------- */
+
+.section1 {
+  background-image: url(img/bb-background2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Animation
+-------------------------------------------------- */
+
+@keyframes fadeInOut {
+      0% {opacity: 0;}
+      2% {opacity: 0;}
+      5% {opacity: 100;}
+      17% {opacity: 100;}
+      20% {opacity: 0;}
+
+      20% {opacity: 0;}
+      22% {opacity: 0;}
+      25% {opacity: 100;}
+      37% {opacity: 100;}
+      40% {opacity: 0;}
+
+      20% {opacity: 0;}
+      25% {opacity: 0;}
+      48% {opacity: 100;}
+      57% {opacity: 100;}
+      60% {opacity: 0;}
+
+      60% {opacity: 0;}
+      62% {opacity: 0;}
+      65% {opacity: 100;}
+      77% {opacity: 100;}
+      80% {opacity: 0;}
+
+      80% {opacity: 0;}
+      82% {opacity: 0;}
+      85% {opacity: 100;}
+      97% {opacity: 100;}
+      100% {opacity: 0;}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
