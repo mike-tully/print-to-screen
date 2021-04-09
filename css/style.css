@@ -54,8 +54,15 @@ nav a {
 }
 
 nav a:hover {
-  color: red;
+  filter: blur(4px);
   text-decoration: none;
+  animation: fadeIn 2s linear infinite;
+
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+
 }
 
 .scrolling-box {
