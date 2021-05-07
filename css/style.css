@@ -1,34 +1,50 @@
 
-
-
-/* Global
+/* Media Queries / Breakpoints
 -------------------------------------------------- */
 
 
-
-
-/* Fonts
--------------------------------------------------- */
-/*
-@font-face {
-font-family: "Tiny Grotesk Narrow";
-src:  url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-NarrowRegular.woff") format("woff"),
-    url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-NarrowRegular.otf") format("opentype");
+@media only screen and (max-width: 768px) {
+/* For Mobile: */
+	nav a {
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-align: justify;
+  padding: 1em;
+  animation: fadeInOut 106s linear infinite;
+}
 }
 
-@font-face {
-font-family: "Tiny Grotesk";
-src:  url("https://mike-tully.github.io/on_gathering/css/fonts/TinyGrotesk-Regular.woff") format("woff"),
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+/* For Mobile: */
+	nav a {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: justify;
+  padding: 1em;
+  animation: fadeInOut 106s linear infinite;
 }
-  
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1700px) {
+/* For Mobile: */
+	nav a {
+  color: #fff;
+  font-size: 2.5rem;
+  text-decoration: none;
+  text-align: justify;
+  padding: 1em;
+  animation: fadeInOut 106s linear infinite;
+}
+}
  
-
-
-/* Marquee text
+/* Text Styling / Main Navigation
 -------------------------------------------------- */
 
 *{padding:0px;
-margin:0px;}
+  margin:0px;
+}
 
 body {
   font-size: 100%
@@ -39,11 +55,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   position: fixed;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 3rem;
   line-height: 0;
   width: 100%;
-  text-align: center;
+  text-align: justify;
   margin:0;
   z-index:99;
 }
@@ -51,6 +67,7 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
+  text-align: justify;
   padding: 1em;
   animation: fadeInOut 106s linear infinite;
 }
@@ -63,7 +80,6 @@ nav a:hover {
   filter: blur(4px);
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-
 }
 
 .scrolling-box {
@@ -87,7 +103,7 @@ nav a:hover {
 section {
   display: flex;
   flex: 0 0 auto;
-  width: 100vw;
+  width: 50vw;
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -95,18 +111,25 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-   /*box-shadow: 20px 0px 10px rgba(255,255,255,1) inset, -20px 0px 10px rgba(255,255,255,1) inset;
-  mix-blend-mode: soft-light;*/
+  box-shadow: 20px 0px 30px rgba(0,0,0,.5) inset, -20px 0px 30px rgba(0,0,0,.5) inset;
+  mix-blend-mode: none;
 
 }
 
 
-
-
-/* Sections – Individual
--------------------------------------------------- */
-
-
+.colophon {
+  width: 50vw;
+  height: 100%;
+  background-size: cover;
+  box-shadow: 20px 0px 30px rgba(0,0,0,.5) inset, -20px 0px 30px rgba(0,0,0,.5) inset;
+  font-size:5vw;
+  line-height: 7.5vh;
+  text-align:center;
+  padding-left:.5em;
+  padding-right:.5em;
+  z-index: 99;
+  overflow: hidden;
+}
 
 
 /* Animation
