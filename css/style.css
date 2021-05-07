@@ -16,7 +16,7 @@
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1366px) {
+@media only screen and (min-width: 768px) and (max-width: 1450px) {
 /* For Mobile: */
 	nav a {
   color: #fff;
@@ -29,7 +29,7 @@
 }
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1700px) {
+@media only screen and (min-width: 1450px) and (max-width: 1700px) {
 /* For Mobile: */
 	nav a {
   color: #fff;
