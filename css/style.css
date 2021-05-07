@@ -44,9 +44,9 @@
 
 @font-face {
   font-family: "Times New Roman";
-  src: 	url("https://mike-tully.github.io/on_gathering/css/fonts/TimesNewroman.ttf") format("truetype"),
-        url("https://mike-tully.github.io/on_gathering/css/fonts/TimesNewroman.otf") format("opentype");
-        url("https://mike-tully.github.io/on_gathering/css/fonts/TimesNewroman.woff") format("woff");
+  src: 	url("https://mike-tully.github.io/print-to-screen/fonts/TimesNewroman.ttf") format("truetype"),
+        url("https://mike-tully.github.io/print-to-screen/fonts/TimesNewroman.otf") format("opentype");
+        url("https://mike-tully.github.io/print-to-screen/fonts/TimesNewroman.woff") format("woff");
       }
 
 *{padding:0px;
